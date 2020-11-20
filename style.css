@@ -1,0 +1,226 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+header{
+    width: 100%;height: 100vh;
+    background-image: url('../images/koikod1.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background:rgba(0, 0,0,0.2);
+    color: white;display:flex ; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%; text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;justify-content:space-between;
+}
+
+nav .menu a{
+    width: 25%;
+    text-decoration: none;color: white;
+}
+
+nav .menu a: :first-child{
+    color:#00b894;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+section{
+
+}
+
+section h3{
+    font-size: 35px;font-weight: 200;letter-spacing: 3px;
+    text-shadow:1px 1px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .btnone{
+    background: #00b894;
+    color: black;
+
+}
+
+section .btntwo{
+    background:#00b894;
+    color: black;
+
+}
+
+section .btnthree{
+    background:#00b894;
+    color: black;
+
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:url('../images/white.jpg') ;
+    background-position:center ;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(11, 202, 202);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px;
+    cursor: pointer;
+    background: wheat;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background:linear-gradient(to right,#ff105f, #ffad06) ;
+    border-radius:30px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none ;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+.banner-text{
+    width: 100%;
+    position: absolute;
+}
+
+.banner-text ul{
+    height: 50px;
+    float: right;
+}
+
+.banner-text ul li{
+    display: inline-block;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner-text h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 20%;
+}
+
+.animation-area{
+    background: linear-gradient(to left, #8942a8, #ba382f);
+    width: 100%;
+    height: 100vh;
+}
